@@ -1,0 +1,24 @@
+.list_item1 {
+    display: flex;
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    background-color: #EADDFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item1 div {
+    font-size: 24px;
+    color: black;
+}
+
+.list_item2 {
+    color: black;
+}
+
+.list_item3 {
+    color: black;
+    font-size: 10px;
+}
+
