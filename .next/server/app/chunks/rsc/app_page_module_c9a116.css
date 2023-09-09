@@ -1,21 +1,9 @@
 /* [project]/app/page.module.css (css, rsc) */
-.home_page_section__page__f5b8e2ef {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-.home_content_wrapper__page__f5b8e2ef {
-  width: 312px;
-  height: 454px;
-  background-color: #eaddff;
-}
 .intro_section__page__f5b8e2ef {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
   background-color: #f4f4f4;
 }
 .intro_text__page__f5b8e2ef {

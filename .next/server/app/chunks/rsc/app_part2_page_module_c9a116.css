@@ -1,0 +1,43 @@
+/* [project]/app/part2/page.module.css (css, rsc) */
+.container__page__804f2ac7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 50px auto;
+}
+.input__page__804f2ac7 {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.label__page__804f2ac7 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.dropdown__page__804f2ac7 {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+}
+.button__page__804f2ac7 {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0070f3;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button__page__804f2ac7:hover {
+  background-color: #0051bb;
+}

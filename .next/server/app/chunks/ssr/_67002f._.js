@@ -40,10 +40,19 @@ function RootLayout({ children }) {
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
                                 href: "/form",
                                 className: "nav-link",
-                                children: "Form"
+                                children: "Part 1"
                             }, void 0, false, {
                                 fileName: "<[project]/app/layout.tsx>",
                                 lineNumber: 25,
+                                columnNumber: 11
+                            }, this),
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                href: "/part2",
+                                className: "nav-link",
+                                children: "Part 2"
+                            }, void 0, false, {
+                                fileName: "<[project]/app/layout.tsx>",
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -106,265 +115,27 @@ const __TURBOPACK__default__export__ = {
 "[project]/app/form/listItem.module.css (css module, rsc)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__({
-  "list_item1": "list_item1__listItem__c833277b",
-  "list_item2": "list_item2__listItem__c833277b",
-  "list_item3": "list_item3__listItem__c833277b",
 });
 
 })()),
-"[project]/app/form/listItem.tsx (ecmascript, rsc)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__ }) => (() => {
+"[project]/app/form/listItem.tsx (ecmascript, rsc)": (function({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__, m: module, e: exports }) { !function() {
 
-__turbopack_esm__({
-    "default": ()=>ListItem
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$module$2e$css__$28$css__module$29$__ = __turbopack_import__("[project]/app/form/listItem.module.css (css module, rsc)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-;
-async function ListItem() {
-    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
-        children: [
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$module$2e$css__$28$css__module$29$__["default"].list_item1,
-                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    children: "A"
-                }, void 0, false, {
-                    fileName: "<[project]/app/form/listItem.tsx>",
-                    lineNumber: 7,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
-                fileName: "<[project]/app/form/listItem.tsx>",
-                lineNumber: 6,
-                columnNumber: 13
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$module$2e$css__$28$css__module$29$__["default"].list_item2,
-                children: "List item"
-            }, void 0, false, {
-                fileName: "<[project]/app/form/listItem.tsx>",
-                lineNumber: 9,
-                columnNumber: 13
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$module$2e$css__$28$css__module$29$__["default"].list_item3,
-                children: "100+"
-            }, void 0, false, {
-                fileName: "<[project]/app/form/listItem.tsx>",
-                lineNumber: 10,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true);
-}
-
-})()),
+const e = new Error("Could not parse module '[project]/app/form/listItem.tsx'");
+e.code = 'MODULE_UNPARSEABLE';
+throw e;
+}.call(this) }),
 "[project]/app/form/page.module.css (css module, rsc)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__({
-  "break": "break__page__640381a2",
-  "content_body": "content_body__page__640381a2",
-  "content_footer": "content_footer__page__640381a2",
-  "content_header": "content_header__page__640381a2",
-  "home_content_wrapper": "home_content_wrapper__page__640381a2",
-  "home_page_section": "home_page_section__page__640381a2",
-  "list_item4": "list_item4__page__640381a2",
-  "list_item4_label": "list_item4_label__page__640381a2",
-  "sub_content_item": "sub_content_item__page__640381a2",
 });
 
 })()),
-"[project]/app/form/page.tsx (ecmascript, rsc)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__ }) => (() => {
+"[project]/app/form/page.tsx (ecmascript, rsc)": (function({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__, m: module, e: exports }) { !function() {
 
-__turbopack_esm__({
-    "default": ()=>HomePage
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__ = __turbopack_import__("[project]/app/form/page.module.css (css module, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$tsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/form/listItem.tsx (ecmascript, rsc)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-;
-;
-async function HomePage() {
-    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("section", {
-        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].home_page_section,
-        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].home_content_wrapper,
-            children: [
-                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].content_header,
-                    children: "DiploAI"
-                }, void 0, false, {
-                    fileName: "<[project]/app/form/page.tsx>",
-                    lineNumber: 8,
-                    columnNumber: 17
-                }, this),
-                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].content_body,
-                    children: "DiploAI is a tool that helps companies and governments deal with increasing climate complexity and regulatory change, by using GenAI to identify their optimal strategy to achieve a given goal."
-                }, void 0, false, {
-                    fileName: "<[project]/app/form/page.tsx>",
-                    lineNumber: 9,
-                    columnNumber: 17
-                }, this),
-                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].sub_content,
-                    children: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].sub_content_item,
-                            children: [
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$tsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 16,
-                                    columnNumber: 25
-                                }, this),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("input", {
-                                    type: "checkbox",
-                                    id: "customCheckbox1",
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].list_item4,
-                                    name: "myCheckbox"
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 17,
-                                    columnNumber: 25
-                                }, this),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("label", {
-                                    htmlFor: "customCheckbox1",
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].list_item4_label
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 18,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "<[project]/app/form/page.tsx>",
-                            lineNumber: 15,
-                            columnNumber: 21
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].break
-                        }, void 0, false, {
-                            fileName: "<[project]/app/form/page.tsx>",
-                            lineNumber: 20,
-                            columnNumber: 21
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].sub_content_item,
-                            children: [
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$tsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 22,
-                                    columnNumber: 25
-                                }, this),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("input", {
-                                    type: "checkbox",
-                                    id: "customCheckbox2",
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].list_item4,
-                                    name: "myCheckbox"
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 23,
-                                    columnNumber: 25
-                                }, this),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("label", {
-                                    htmlFor: "customCheckbox2",
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].list_item4_label
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 24,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "<[project]/app/form/page.tsx>",
-                            lineNumber: 21,
-                            columnNumber: 21
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].break
-                        }, void 0, false, {
-                            fileName: "<[project]/app/form/page.tsx>",
-                            lineNumber: 26,
-                            columnNumber: 21
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].sub_content_item,
-                            children: [
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$listItem$2e$tsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 28,
-                                    columnNumber: 25
-                                }, this),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("input", {
-                                    type: "checkbox",
-                                    id: "customCheckbox3",
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].list_item4,
-                                    name: "myCheckbox"
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 29,
-                                    columnNumber: 25
-                                }, this),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("label", {
-                                    htmlFor: "customCheckbox3",
-                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].list_item4_label
-                                }, void 0, false, {
-                                    fileName: "<[project]/app/form/page.tsx>",
-                                    lineNumber: 30,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "<[project]/app/form/page.tsx>",
-                            lineNumber: 27,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "<[project]/app/form/page.tsx>",
-                    lineNumber: 14,
-                    columnNumber: 17
-                }, this),
-                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$form$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].content_footer,
-                    children: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            children: "Action 1"
-                        }, void 0, false, {
-                            fileName: "<[project]/app/form/page.tsx>",
-                            lineNumber: 34,
-                            columnNumber: 21
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            children: "Action 2"
-                        }, void 0, false, {
-                            fileName: "<[project]/app/form/page.tsx>",
-                            lineNumber: 35,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "<[project]/app/form/page.tsx>",
-                    lineNumber: 33,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "<[project]/app/form/page.tsx>",
-            lineNumber: 7,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
-        fileName: "<[project]/app/form/page.tsx>",
-        lineNumber: 6,
-        columnNumber: 9
-    }, this);
-}
-
-})()),
+const e = new Error("Could not parse module '[project]/app/form/page.tsx'");
+e.code = 'MODULE_UNPARSEABLE';
+throw e;
+}.call(this) }),
 "[project]/app/form/page.tsx (ecmascript, client chunks, rsc)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname }) => (() => {
 
 __turbopack_esm__({

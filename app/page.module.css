@@ -1,23 +1,11 @@
-.home_page_section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
 
-.home_content_wrapper {
-  width: 312px;
-  height: 454px;
-  background-color: #EADDFF;
-}
 
 .intro_section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh; /* 70% of viewport height, adjust according to your preference */
-  background-color: #f4f4f4; /* Light grey background, adjust color according to your theme */
+  height: 100vh;
+  background-color: #f4f4f4;
 }
 
 .intro_text {
@@ -25,12 +13,13 @@
   text-align: center;
   font-size: 1.2rem;
   color: #333;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: white;
   border-radius: 8px;
+
 }
 
 .highlight {
-  color: #007BFF; /* Blue text, adjust color according to your theme */
-  font-weight: 600; /* Making it bold */
+  color: #007BFF;
+  font-weight: 600;
 }

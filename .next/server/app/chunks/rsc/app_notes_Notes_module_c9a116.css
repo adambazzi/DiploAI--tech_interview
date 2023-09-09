@@ -1,0 +1,57 @@
+/* [project]/app/notes/Notes.module.css (css, rsc) */
+.pageTitle__Notes__ae106fee {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+.grid__Notes__ae106fee {
+  margin-top: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+.action__Notes__ae106fee {
+  text-align: left;
+  color: dodgerblue;
+}
+.note__Notes__ae106fee {
+  height: auto;
+  width: 200px;
+  padding: 0.2rem 1rem;
+  margin: 0.5rem;
+  background: #ffff00;
+  box-shadow: 4px 4px 8px 1px #00000075;
+  border-radius: 2px;
+}
+.container__Notes__ae106fee {
+  padding: 0 2rem;
+}
+.pageTitle__Notes__ae106fee {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+.note__Notes__ae106fee {
+  height: auto;
+  width: 200px;
+  padding: 0.25rem;
+  border-radius: 2px;
+}
+.title__Notes__ae106fee {
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+.content__Notes__ae106fee {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+.created__Notes__ae106fee {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+.action__Notes__ae106fee {
+  text-align: left;
+  color: dodgerblue;
+}

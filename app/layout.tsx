@@ -22,8 +22,11 @@ export default function RootLayout({
           <Link href='/' className="nav-link">
             Home
           </Link>
-          <Link href="/form" className="nav-link">
-            Form
+          <Link href="/part1" className="nav-link">
+            Part 1
+          </Link>
+          <Link href="/part2" className="nav-link">
+            Part 2
           </Link>
         </nav>
           {children}

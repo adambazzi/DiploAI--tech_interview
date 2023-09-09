@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["chunks/ssr/[next]_entry_app-renderer_tsx_ada026._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["chunks/ssr/[next]_entry_app-renderer_tsx_9224d2._.js", {
 
 "[next]/entry/app/manifest.ts (ecmascript, ssr)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__ }) => (() => {
 
@@ -126,7 +126,7 @@ __turbopack_export_value__([
 ]);
 
 })()),
-"[next]/entry/app-renderer.tsx/(APP_ENTRY)/[next]/entry/app-entry.tsx/(COMPONENT_0)/[project]/app/form/page.tsx (ecmascript, client chunks, with chunking context scope)/(COMPONENT_1)/[project]/app/layout.tsx (ecmascript, client chunks, with chunking context scope)/(METADATA_2)/[project]/app/favicon.ico.mjs/(IMAGE)/[project]/app/favicon.ico (static) (structured image object, ecmascript) (ecmascript, client chunks, with chunking context scope)/(APP_BOOTSTRAP)/[next]/entry/app/hydrate.tsx (ecmascript, chunk group files) (ecmascript, ssr)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__ }) => (() => {
+"[next]/entry/app-renderer.tsx/(APP_ENTRY)/[next]/entry/app-entry.tsx/(COMPONENT_0)/[project]/app/part1/page.tsx (ecmascript, client chunks, with chunking context scope)/(COMPONENT_1)/[project]/app/layout.tsx (ecmascript, client chunks, with chunking context scope)/(METADATA_2)/[project]/app/favicon.ico.mjs/(IMAGE)/[project]/app/favicon.ico (static) (structured image object, ecmascript) (ecmascript, client chunks, with chunking context scope)/(APP_BOOTSTRAP)/[next]/entry/app/hydrate.tsx (ecmascript, chunk group files) (ecmascript, ssr)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__ }) => (() => {
 
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$operation$2d$stream$2e$ts__$28$ecmascript$29$__ = __turbopack_import__("[next]/internal/operation-stream.ts (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$polyfill$2f$app$2d$polyfills$2e$ts__$28$ecmascript$29$__ = __turbopack_import__("[next]/polyfill/app-polyfills.ts (ecmascript, ssr)");
@@ -135,7 +135,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$headers$2e$ts__$28$ecmascript$29$__ = __turbopack_import__("[next]/internal/headers.ts (ecmascript, ssr)");
 var __TURBOPACK__external__node$3a$querystring__ = __turbopack_external_require__("node:querystring", true);
 var __TURBOPACK__external__node$3a$stream__ = __turbopack_external_require__("node:stream", true);
-var __TURBOPACK__imported__module__$5b$next$5d2f$entry$2f$app$2d$entry$2e$tsx$2f28$COMPONENT_0$292f5b$project$5d2f$app$2f$form$2f$page$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$COMPONENT_1$292f5b$project$5d2f$app$2f$layout$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$METADATA_2$292f5b$project$5d2f$app$2f$favicon$2e$ico$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$app$2f$favicon$2e$ico__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$29$__ = __turbopack_import__("[next]/entry/app-entry.tsx/(COMPONENT_0)/[project]/app/form/page.tsx (ecmascript, client chunks, with chunking context scope)/(COMPONENT_1)/[project]/app/layout.tsx (ecmascript, client chunks, with chunking context scope)/(METADATA_2)/[project]/app/favicon.ico.mjs/(IMAGE)/[project]/app/favicon.ico (static) (structured image object, ecmascript) (ecmascript, client chunks, rsc)");
+var __TURBOPACK__imported__module__$5b$next$5d2f$entry$2f$app$2d$entry$2e$tsx$2f28$COMPONENT_0$292f5b$project$5d2f$app$2f$part1$2f$page$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$COMPONENT_1$292f5b$project$5d2f$app$2f$layout$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$METADATA_2$292f5b$project$5d2f$app$2f$favicon$2e$ico$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$app$2f$favicon$2e$ico__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$29$__ = __turbopack_import__("[next]/entry/app-entry.tsx/(COMPONENT_0)/[project]/app/part1/page.tsx (ecmascript, client chunks, with chunking context scope)/(COMPONENT_1)/[project]/app/layout.tsx (ecmascript, client chunks, with chunking context scope)/(METADATA_2)/[project]/app/favicon.ico.mjs/(IMAGE)/[project]/app/favicon.ico (static) (structured image object, ecmascript) (ecmascript, client chunks, rsc)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$entry$2f$app$2f$hydrate$2e$tsx__$28$ecmascript$2c$__chunk__group__files$29$__ = __turbopack_import__("[next]/entry/app/hydrate.tsx (ecmascript, chunk group files, ssr)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$http$2e$ts__$28$ecmascript$29$__ = __turbopack_import__("[next]/internal/http.ts (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$entry$2f$app$2f$manifest$2e$ts__$28$ecmascript$29$__ = __turbopack_import__("[next]/entry/app/manifest.ts (ecmascript, ssr)");
@@ -202,7 +202,7 @@ async function runOperation(renderData) {
             ampFirstPages: []
         },
         ComponentMod: {
-            ...__TURBOPACK__imported__module__$5b$next$5d2f$entry$2f$app$2d$entry$2e$tsx$2f28$COMPONENT_0$292f5b$project$5d2f$app$2f$form$2f$page$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$COMPONENT_1$292f5b$project$5d2f$app$2f$layout$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$METADATA_2$292f5b$project$5d2f$app$2f$favicon$2e$ico$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$app$2f$favicon$2e$ico__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$29$__["default"],
+            ...__TURBOPACK__imported__module__$5b$next$5d2f$entry$2f$app$2d$entry$2e$tsx$2f28$COMPONENT_0$292f5b$project$5d2f$app$2f$part1$2f$page$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$COMPONENT_1$292f5b$project$5d2f$app$2f$layout$2e$tsx__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$292f28$METADATA_2$292f5b$project$5d2f$app$2f$favicon$2e$ico$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$app$2f$favicon$2e$ico__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__$28$ecmascript$2c$__client__chunks$2c$__with__chunking__context__scope$29$__["default"],
             __next_app__: {
                 require: __next_require__,
                 loadChunk: __next_chunk_load__
@@ -274,4 +274,4 @@ async function runOperation(renderData) {
 })()),
 }]);
 
-//# sourceMappingURL=[next]_entry_app-renderer_tsx_ada026._.js.map
+//# sourceMappingURL=[next]_entry_app-renderer_tsx_9224d2._.js.map

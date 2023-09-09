@@ -1,0 +1,21 @@
+/* [project]/app/part1/listItem.module.css (css, rsc) */
+.list_item1__listItem__5920a524 {
+  display: flex;
+  height: 40px;
+  border-radius: 50%;
+  width: 40px;
+  background-color: #eaddff;
+  justify-content: center;
+  align-items: center;
+}
+.list_item1__listItem__5920a524 div {
+  font-size: 24px;
+  color: black;
+}
+.list_item2__listItem__5920a524 {
+  color: black;
+}
+.list_item3__listItem__5920a524 {
+  color: black;
+  font-size: 10px;
+}

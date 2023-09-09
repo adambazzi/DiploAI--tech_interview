@@ -1,0 +1,35 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
+    "chunks/ssr/[next]_entry_app-renderer_tsx_8ce225._.js",
+    {},
+]);
+(globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
+  "path": "chunks/ssr/[next]_entry_app-renderer_tsx_8ce225._.js",
+  "chunks": [
+    "chunks/ssr/node_modules_e2eb36._.js",
+    "chunks/ssr/_env_b53fce.js",
+    "chunks/ssr/app_[id]_page_tsx_abc333._.js",
+    "chunks/ssr/[turbopack-node]_ipc_index_ts_6a06e3._.js",
+    "chunks/ssr/[turbopack-node]_compiled_stacktrace-parser_index_8b1804.js",
+    "chunks/ssr/[next]_internal_operation-stream_ts_5374de._.js",
+    "chunks/ssr/[next]_internal_headers_ts_8f9322._.js",
+    "chunks/ssr/[next]_internal_http_ts_873c98._.js",
+    "chunks/ssr/[next]_polyfill_app-polyfills_ts_e070e7._.js",
+    "chunks/ssr/[next]_entry_app-renderer_tsx_6d4c8c._.js",
+    "chunks/ssr/_c59f07._.js",
+    "chunks/ssr/[next]_entry_app-entry_tsx_45830e._.js",
+    "chunks/ssr/[next]_entry_app-entry_tsx_893d64._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_0b01bd._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_6467c7._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_cf64a1._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_d85798._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_5ab633._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_a47235._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_766670._.js",
+    "chunks/ssr/[next]_entry_app_server-to-client-ssr_tsx_09f5a0._.js",
+    "chunks/ssr/[next]_internal_font_google_inter_59dee874_577cc7.js",
+    "chunks/ssr/app_[id]_page_module.css",
+    "chunks/rsc/[next]_internal_font_google_inter_59dee874_module.css",
+    "chunks/rsc/app_globals.css"
+  ],
+  "source": "entry"
+});

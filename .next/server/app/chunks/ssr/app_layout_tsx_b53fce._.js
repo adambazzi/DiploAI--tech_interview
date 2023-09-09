@@ -26,18 +26,40 @@ function RootLayout({ children }) {
             children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("main", {
                 children: [
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("nav", {
-                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                            href: "/",
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "<[project]/app/layout.tsx>",
-                            lineNumber: 22,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
+                        className: "navbar",
+                        children: [
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                href: "/",
+                                className: "nav-link",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "<[project]/app/layout.tsx>",
+                                lineNumber: 22,
+                                columnNumber: 11
+                            }, this),
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                href: "/part1",
+                                className: "nav-link",
+                                children: "Part 1"
+                            }, void 0, false, {
+                                fileName: "<[project]/app/layout.tsx>",
+                                lineNumber: 25,
+                                columnNumber: 11
+                            }, this),
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                href: "/part2",
+                                className: "nav-link",
+                                children: "Part 2"
+                            }, void 0, false, {
+                                fileName: "<[project]/app/layout.tsx>",
+                                lineNumber: 28,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "<[project]/app/layout.tsx>",
                         lineNumber: 21,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, this),
                     children
                 ]

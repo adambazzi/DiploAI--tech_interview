@@ -4,8 +4,6 @@
 
 __turbopack_export_value__({
   "highlight": "highlight__page__f5b8e2ef",
-  "home_content_wrapper": "home_content_wrapper__page__f5b8e2ef",
-  "home_page_section": "home_page_section__page__f5b8e2ef",
   "intro_section": "intro_section__page__f5b8e2ef",
   "intro_text": "intro_text__page__f5b8e2ef",
 });
@@ -30,7 +28,7 @@ function Home() {
                 "Hello. Hope you hire me! Click on ",
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$page$2e$module$2e$css__$28$css__module$29$__["default"].highlight,
-                    children: "form"
+                    children: "part 1 and 2"
                 }, void 0, false, {
                     fileName: "<[project]/app/page.tsx>",
                     lineNumber: 7,
@@ -100,12 +98,21 @@ function RootLayout({ children }) {
                                 columnNumber: 11
                             }, this),
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                                href: "/form",
+                                href: "/part1",
                                 className: "nav-link",
-                                children: "Form"
+                                children: "Part 1"
                             }, void 0, false, {
                                 fileName: "<[project]/app/layout.tsx>",
                                 lineNumber: 25,
+                                columnNumber: 11
+                            }, this),
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                href: "/part2",
+                                className: "nav-link",
+                                children: "Part 2"
+                            }, void 0, false, {
+                                fileName: "<[project]/app/layout.tsx>",
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, this)
                         ]
