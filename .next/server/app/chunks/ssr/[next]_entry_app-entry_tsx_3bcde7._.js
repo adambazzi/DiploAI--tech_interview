@@ -7,7 +7,6 @@ __turbopack_esm__({
     chunks: () => chunks,
 });
 const chunks = [
-  "chunks/rsc/app_part2_Notes_module.css",
   "chunks/ssr/app_part2_Notes_module.css",
   "chunks/rsc/[next]_internal_font_google_inter_59dee874_module.css",
   "chunks/rsc/app_globals.css"

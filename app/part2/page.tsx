@@ -1,19 +1,16 @@
 
-import Link from 'next/link';
+'use client';
 import styles from './Notes.module.css';
-import CreateNote from './CreateNote';
+import DataForm from './CreateNote';
+import { useState } from 'react';
 
 
-async function getNotes() {
-  const res = await fetch('http://127.0.0.1:8090/api/collections/notes/records', { cache: 'no-store' });
-  const data = await res.json();
-  return data?.items as any[];
-}
 
-export default async function NotesPage() {
-  const notes = await getNotes();
 
-  return(
+export default function NotesPage() {
+  const [notes, setNotes] = useState([]);
+
+  return (
     <div>
       <h1>Notes</h1>
       <div className={styles.grid}>
@@ -21,21 +18,28 @@ export default async function NotesPage() {
           return <Note key={note.id} note={note} />;
         })}
       </div>
-
-      <CreateNote />
+      <DataForm notes={notes} setNotes={setNotes} />
     </div>
   );
 }
+
 
 function Note({ note }: any) {
-  const { title, completed } = note || {};
+  const modifiednote = {
+    userId: note.userId,
+    id: note.id,
+    title: `Part 2 ${note.title}`,
+    completed: note.completed,
+  };
 
   return (
-    <div>
-      <div className={styles.note}>
-        <h2>{title}</h2>
-        <h5>{completed ? 'True' : 'False'}</h5>
-      </div>
+    <div className={styles.note}>
+      <h2>note - Part 2</h2>
+      <p>User ID: {modifiednote.userId}</p>
+      <p>ID: {modifiednote.id}</p>
+      <p>Title: {modifiednote.title}</p>
+      <p>Completed: {modifiednote.completed ? 'Yes' : 'No'}</p>
     </div>
   );
 }
+

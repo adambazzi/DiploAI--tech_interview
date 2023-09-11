@@ -29,112 +29,66 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 ;
 ;
 ;
-function CreateNote() {
-    const [title, setTitle] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"]('');
-    const [completed, setCompleted] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"](false);
+function CreateNote(props) {
     const [nValue, setNValue] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"](0);
+    const { notes, setNotes } = props;
     const router = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$28$ecmascript$29$__["useRouter"]();
-    const create = async ()=>{
+    const get = async (e)=>{
+        e.preventDefault();
+        const updatedNotes = [];
         for(let i = 0; i < nValue; i++){
-            await fetch('http://127.0.0.1:8090/api/collections/notes/records', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    title,
-                    completed
-                })
+            const barNum = Math.floor(Math.random() * 100) + 1;
+            const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${barNum}`, {
+                method: 'GET'
             });
+            if (response.ok) {
+                const data = await response.json();
+                updatedNotes.push(data);
+            } else {
+                console.error('Failed to fetch data:', response.status, response.statusText);
+            }
         }
-        setTitle('');
-        setCompleted(false);
+        setNotes(updatedNotes);
         setNValue(0);
         router.refresh();
     };
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("form", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].form,
-        onSubmit: create,
+        onSubmit: get,
         children: [
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h3", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].formHeader,
                 children: "Form"
             }, void 0, false, {
                 fileName: "<[project]/app/part2/CreateNote.tsx>",
-                lineNumber: 42,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("input", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].formInput,
-                type: "text",
-                placeholder: "Write in your title",
-                onChange: (e)=>setTitle(e.target.value)
-            }, void 0, false, {
-                fileName: "<[project]/app/part2/CreateNote.tsx>",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("input", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].formInput,
                 type: "number",
                 placeholder: "Write in your n-value",
+                value: nValue,
                 onChange: (e)=>setNValue(Number(e.target.value))
             }, void 0, false, {
                 fileName: "<[project]/app/part2/CreateNote.tsx>",
-                lineNumber: 48,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("label", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].formLabel,
-                htmlFor: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].true_false_dropdown,
-                children: "Choose a value:"
-            }, void 0, false, {
-                fileName: "<[project]/app/part2/CreateNote.tsx>",
-                lineNumber: 53,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("select", {
-                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].formDropdown,
-                name: "trueFalse",
-                id: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].true_false_dropdown,
-                onChange: (e)=>setCompleted(e.target.value === 'true'),
-                children: [
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("option", {
-                        value: "true",
-                        children: "True"
-                    }, void 0, false, {
-                        fileName: "<[project]/app/part2/CreateNote.tsx>",
-                        lineNumber: 59,
-                        columnNumber: 11
-                    }, this),
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("option", {
-                        value: "false",
-                        children: "False"
-                    }, void 0, false, {
-                        fileName: "<[project]/app/part2/CreateNote.tsx>",
-                        lineNumber: 60,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "<[project]/app/part2/CreateNote.tsx>",
-                lineNumber: 54,
+                lineNumber: 45,
                 columnNumber: 7
             }, this),
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$part2$2f$Notes$2e$module$2e$css__$28$css__module$29$__["default"].formButton,
-                onClick: create,
+                onClick: get,
                 type: "button",
                 children: "Submit"
             }, void 0, false, {
                 fileName: "<[project]/app/part2/CreateNote.tsx>",
-                lineNumber: 62,
+                lineNumber: 51,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "<[project]/app/part2/CreateNote.tsx>",
-        lineNumber: 41,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }
